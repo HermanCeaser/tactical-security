@@ -1,0 +1,473 @@
+        /* For index cloud security page style start */
+        /* ==========================================
+Default Css Start
+============================================*/
+        
+.ml-1px {
+    margin-left: 1px;
+}
+
+.list-style-tick li {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.list-style-tick li::before {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tick-white li::before {
+    color: var(--theme-white-color);
+}
+
+.tick-extra1 li::before {
+    color: var(--theme-extra1-color);
+}
+
+.tick-extra2 li::before {
+    color: var(--theme-extra2-color);
+}
+
+.tick-extra3 li::before {
+    color: var(--theme-extra3-color);
+}
+
+.list-style-tick.tick-round-primary li:before {
+    content: "\f058";
+}
+
+[class*="down-line"] {
+    position: relative;
+}
+
+[class*="down-line"]:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+}
+
+.down-line-extra1::before {
+    background-color: var(--theme-extra1-color)
+}
+
+.down-line-extra2::before {
+    background-color: var(--theme-extra2-color)
+}
+
+.down-line-extra3::before {
+    background-color: var(--theme-extra3-color)
+}
+
+.btn {
+    border: 2px solid
+}
+
+.btn[class*="gradient-bg"] {
+    border: none
+}
+
+.btn-primary:hover,
+.btn-primary-border {
+    border-color: var(--theme-primary-color) !important;
+    color: var(--theme-primary-color) !important;
+    background-color: transparent !important;
+}
+
+.btn-primary,
+.btn-primary-border:hover {
+    color: var(--theme-white-color) !important;
+    background-color: var(--theme-primary-color) !important;
+    border-color: var(--theme-primary-color) !important;
+}
+
+.btn-white:hover,
+.btn-white-border {
+    border-color: var(--theme-white-color) !important;
+    color: var(--theme-white-color) !important;
+    background-color: transparent !important;
+}
+
+.btn-white,
+.btn-white-border:hover {
+    color: var(--theme-primary-color) !important;
+    background-color: var(--theme-white-color) !important;
+    border-color: var(--theme-white-color) !important;
+}
+
+.btn-extra1 {
+    color: var(--theme-white-color) !important;
+    background-color: var(--theme-extra1-color) !important;
+    border-color: var(--theme-extra1-color) !important;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.line-height-inherit {
+    line-height: inherit !important;
+}
+
+.tagline {
+    letter-spacing: 4px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-family: var(--theme-general-font);
+}
+
+.search-domain {
+    position: relative;
+    margin-top: 100px;
+}
+
+.search-domain input {
+    padding: 10px 175px 10px 20px;
+}
+
+.search-domain button {
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--theme-primary-color);
+    color: var(--theme-white-color);
+    border: none;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.search-domain button .fa-search {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.colud-security .price span {
+    font-weight: 400;
+}
+
+.colud-security .price span:first-child {
+    display: block;
+    margin-top: 50px;
+}
+
+.slider-img {
+    background-image: url(../images/cloud-security/1.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: calc(100% - 5%) center;
+}
+/* ==========================================
+Default Css End &
+Pricing Section Css Start
+============================================*/
+/* ==========================================
+Pricing Section Css End &
+Plan Section Css Start
+============================================*/
+
+.plan-item .icon-area {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #383749;
+    text-align: center;
+    line-height: 40px;
+}
+
+.feature-item,
+.plan-item {
+    border: 1px solid #f1f1f1;
+    border-radius: 7px;
+    -webkit-box-shadow: 2px 2px 25px 0 rgba(0, 0, 0, .05);
+    box-shadow: 2px 2px 25px 0 rgba(0, 0, 0, .05);
+}
+/* ==========================================
+Plan Section Css End &
+Testimonial Section Css Start
+============================================*/
+
+.testimonial-item {
+    padding: 80px 40px 40px;
+    background-color: #1D1019;
+    margin-top: 50px;
+    opacity: .4;
+}
+
+.owl-item.center .testimonial-item {
+    background-color: #351F22;
+    opacity: 1;
+    color: var(--theme-white-color)
+}
+
+.testimonials.owl-carousel button.owl-dot {
+    background-color: var(--theme-white-color) !important;
+}
+
+.testimonial-item img {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.testimonial-item .name::before {
+    display: none !important;
+}
+
+.testimonial-item .name {
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.testimonial-item .designation {
+    font-size: 16px;
+}
+/* ==========================================
+Testimonial Section Css End &
+Team Member Section Css Start
+============================================*/
+
+.team-member {
+    background-color: #160808;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px
+}
+
+.team-member .medias {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.team-member .medias .twitter {
+    color: #39BEE1
+}
+
+.team-member .medias .linkedin {
+    color: #1389B7
+}
+
+.team-member .medias .instagram {
+    color: #EE1F3B
+}
+
+.team-member .medias .youtube {
+    color: #EE4772
+}
+
+.team-member .medias .facebook {
+    color: #0A8DAE
+}
+
+.team-member .plus::before,
+.team-member .plus::after {
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--theme-primary-color);
+}
+
+.team-member .plus::after {
+    transform: rotate(90deg);
+    left: -50px;
+}
+/* ==========================================
+Team Member Section Css End &
+Partner Section Css Start
+============================================*/
+
+.post-meta>a {
+    border: none
+}
+
+.partner-brand img {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.subscribe-widget .btn {
+    line-height: 46px;
+    height: 46px;
+}
+
+.footer-widget .widget-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.media-widget a {
+    color: var(--theme-general-color);
+}
+
+.vertical-timeline::after {
+    background: var(--theme-primary-color);
+}
+/* Cloud Security White */
+
+.dropdown-item {
+    font-family: var(--theme-ordinary-font);
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    color: #363a3e;
+}
+
+.font-fifteen {
+    font-size: 15px;
+}
+
+.angle-shape {
+    padding-bottom: 300px !important;
+}
+
+.angle-shape::after {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    bottom: 0;
+    background: url(../images/cloud-security/shape1.png) no-repeat;
+    content: "";
+    background-size: 100% 100%;
+}
+
+.cloud-offer {
+    right: 150px;
+    top: 50%;
+}
+
+.feature-item .shape img {
+    width: 170px;
+}
+
+.feature-item .shape i {
+    margin-left: -3px;
+}
+
+.cloud-white .achievement {
+    padding-bottom: 450px
+}
+
+.location-search input {
+    width: 100%;
+    height: 60px;
+    padding: 17px 60px 17px 40px;
+}
+
+.location-search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: none;
+    text-align: left;
+    line-height: 63px;
+    font-size: 16px;
+    color: var(--theme-general-color);
+}
+
+.fact-counter .count span {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.dots-border-circle.owl-carousel button.owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--theme-gray-color);
+    border: 2px solid transparent !important;
+}
+
+.dots-border-circle.owl-carousel button.owl-dot.active {
+    border-color: var(--theme-primary-color) !important;
+    width: 15px;
+    height: 15px;
+    outline: none
+}
+
+@media screen and (min-width: 1400px) {
+    .cloud-offer {
+        top: 45%;
+        right: 200px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .slider-img {
+        background-size: 45%;
+    }
+    .cloud-white .achievement {
+        padding-bottom: 300px
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .cloud-white .achievement {
+        padding-bottom: 250px
+    }
+    .cloud-offer {
+        right: 100px;
+    }
+    .slider-img {
+        padding-top: 100px !important;
+    }
+    .lg-mb-1px {
+        margin-bottom: 1px;
+    }
+    .feature-item .shape i {
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-light .navbar-nav .nav-link:focus {
+        color: var(--theme-white-color)
+    }
+    .pricing-item img {
+        width: 50%
+    }
+    .md-img-auto img {
+        width: auto;
+    }
+    .team-member {
+        min-height: 150px;
+    }
+    .cloud-white .achievement {
+        padding-bottom: 200px
+    }
+    .slider-img {
+        padding-top: 100px !important;
+        padding-bottom: 200px !important;
+    }
+    .feature-item .shape i {
+        margin-left: -5px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and(max-width: 575px) {
+    .cloud-white .achievement {
+        padding-bottom: 120px
+    }
+}
+/* For index cloud security page style end */

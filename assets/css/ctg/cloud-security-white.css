@@ -1,0 +1,376 @@
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+
+:root {
+    --theme-general-color: #838383;
+    /* theme gray color ok*/
+}
+
+:root {
+    --theme-primary-color: #fd3c4d;
+    /* theme primary color ok*/
+}
+
+:root {
+    --theme-secondary-color: #1e105d;
+    /* theme secondary color ok*/
+}
+
+:root {
+    --theme-white-color: #ffffff;
+    /* theme white color ok*/
+}
+
+:root {
+    --theme-gray-color: #dfdfdf;
+    /* theme gray color ok*/
+}
+
+:root {
+    --theme-light-color: #f6f7fa;
+    /* theme light color ok*/
+}
+
+:root {
+    --theme-extra1-color: #36B357;
+    /* theme extra1 color ok*/
+}
+
+:root {
+    --theme-extra2-color: #9262c5;
+    /* theme extra2 color ok*/
+}
+
+:root {
+    --theme-extra3-color: #e56f91;
+    /* theme extra3 color ok*/
+}
+
+:root {
+    --theme-extra4-color: #292d36;
+    /* theme extra4 color ok*/
+}
+
+:root {
+    --theme-dark-color: #1a1a1a;
+    /* theme dark color */
+}
+
+:root {
+    --theme-primary-opacity-color: rgba(253, 60, 77, .7)
+    /* theme secondary opacity color */
+}
+
+:root {
+    --theme-secondary-opacity-color: rgba(38, 43, 111, .7)
+    /* theme secondary opacity color */
+}
+
+
+/*==================================
+Font Variable
+==================================*/
+
+:root {
+    --theme-general-font: 'Quicksand', sans-serif;
+    /* Font use for normal text and general text */
+}
+
+:root {
+    --theme-hiperlink-font: 'Advent Pro', sans-serif;
+    /* Font use for normal text and hiperlink text */
+}
+
+:root {
+    --theme-highlight-font: 'Advent Pro', sans-serif;
+    ;
+    /* Font used in title or special area */
+}
+
+body {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-extra1 {
+    color: var(--theme-extra1-color) !important
+}
+
+.bg-extra2 {
+    background-color: var(--theme-extra2-color) !important
+}
+
+h1,
+.h1 {
+    font-size: 42px;
+    font-weight: 700
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+    font-weight: 600
+}
+
+h3,
+.h3 {
+    font-size: 30px;
+    font-weight: 600
+}
+
+h4,
+.h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h5,
+.h5 {
+    font-size: 21px;
+    font-weight: 600
+}
+
+h6,
+.h6 {
+    font-size: 18px;
+    font-weight: 600
+}
+
+.btn {
+    font-family: var(--theme-general-font);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 35px;
+}
+
+.btn-link {
+    font-weight: 500
+}
+
+.navbar-brand {
+    padding: 0
+}
+
+.down-line::before {
+    width: 50px
+}
+
+.btn-primary,
+.btn-primary:hover {
+    color: var(--theme-secondary-color);
+}
+
+
+/* For index cloud security page style start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a {
+    margin-bottom: 0;
+    color: var(--theme-secondary-color);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: var(--theme-general-font);
+    font-size: 15px;
+}
+
+.owl-item .testimonial-item,
+.owl-item.center .testimonial-item {
+    background-color: var(--theme-white-color);
+    color: var(--theme-general-color);
+}
+
+.testimonials.owl-carousel button.owl-dot {
+    background-color: var(--theme-gray-color) !important;
+    border: 3px solid transparent !important;
+}
+
+.testimonials.owl-carousel button.owl-dot.active {
+    border-color: var(--theme-primary-color) !important;
+}
+
+.text-extra2 {
+    color: var(--theme-extra2-color) !important;
+}
+
+.gradient-bg-one {
+    background: #fa7236;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #fa7236 0%, #ff0566 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #fa7236 0%, #ff0566 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fa7236 0%, #ff0566 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa7236', endColorstr='#ff0566', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradient-bg-two {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#049ec0+0,04cbd2+100 */
+    background: #049ec0;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #049ec0 0%, #04cbd2 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #049ec0 0%, #04cbd2 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #049ec0 0%, #04cbd2 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#049ec0', endColorstr='#04cbd2', GradientType=0);
+    /* IE6-9 */
+}
+
+.gradient-bg-three {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fa7236+0,ff1260+100 */
+    background: #fa7236;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fa7236 0%, #ff1260 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fa7236 0%, #ff1260 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fa7236 0%, #ff1260 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa7236', endColorstr='#ff1260', GradientType=0);
+    /* IE6-9 */
+}
+
+.gradient-bg-four {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bf64db+0,5c27fe+100 */
+    background: #bf64db;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #bf64db 0%, #5c27fe 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #bf64db 0%, #5c27fe 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #bf64db 0%, #5c27fe 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bf64db', endColorstr='#5c27fe', GradientType=0);
+    /* IE6-9 */
+}
+
+.gradient-bg-five {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eebd54+0,fe7c02+100 */
+    background: #eebd54;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #eebd54 0%, #fe7c02 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eebd54 0%, #fe7c02 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eebd54 0%, #fe7c02 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#eebd54', endColorstr='#fe7c02', GradientType=0);
+    /* IE6-9 */
+}
+
+.gradient-bg-six {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4d4377+1,2a427e+100 */
+    background: #4d4377;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #4d4377 1%, #2a427e 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #4d4377 1%, #2a427e 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #4d4377 1%, #2a427e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4d4377', endColorstr='#2a427e', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.hover-gradient-one:hover,
+.gradient-bg-seven {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0566+1,fa7236+100 */
+    background: #ff0566;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ff0566 1%, #fa7236 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ff0566 1%, #fa7236 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ff0566 1%, #fa7236 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff0566', endColorstr='#fa7236', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradient-eight {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#114f76+20,ff0866+100 */
+    background: rgb(17, 79, 118);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(17, 79, 118, 1) 20%, rgba(255, 8, 102, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(17, 79, 118, 1) 20%, rgba(255, 8, 102, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(17, 79, 118, 1) 20%, rgba(255, 8, 102, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#114f76', endColorstr='#ff0866', GradientType=0);
+    /* IE6-9 */
+}
+
+.gradient-nine {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a427e+0,4d4377+100 */
+    background: rgb(42, 66, 126);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(42, 66, 126, 1) 0%, rgba(77, 67, 119, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(42, 66, 126, 1) 0%, rgba(77, 67, 119, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(42, 66, 126, 1) 0%, rgba(77, 67, 119, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2a427e', endColorstr='#4d4377', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradient-ten {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#95d88b+0,51c4cb+100 */
+    background: rgb(149, 216, 139);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(149, 216, 139, 1) 0%, rgba(81, 196, 203, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(149, 216, 139, 1) 0%, rgba(81, 196, 203, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(149, 216, 139, 1) 0%, rgba(81, 196, 203, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#95d88b', endColorstr='#51c4cb', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.bg-extra4 {
+    background-color: var(--theme-extra4-color);
+}
+
+.bg-color-1 {
+    background-color: #262739;
+}
+
+.media-widget a i {
+    color: var(--theme-general-color);
+}
+
+.media-widget a:hover i {
+    color: var(--theme-primary-color);
+}
+
+
+/* For index cloud security page style end */
